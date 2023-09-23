@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Table</title>
+</head>
+<body>
+    <h1>Student Table</h1>
+    <input type="text" id="searchInput" placeholder="Search">
+    <button id="searchButton">Search</button>
+
+    <div id="tableContainer">
+        <table id="studentTable">
+            <!-- Table headers go here -->
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Class</th>
+                    <th>Marks</th>
+                    <th>Passing</th>
+                    <th>Email</th>
+                </tr>
+                <button>Sort A->Z</button>
+                <button>Sort Z->A</button>
+                <button>Sort By Marks</button>
+                <button>Sort By Passing</button>
+                <button>Sort By Class</button>
+                <button>Sort By Gender</button>
+            </thead>
+            <tbody id="studentTable tbody">
+            </tbody>
+        </table>
+    </div>
+
+    <div id="sortButtons">
+       
+    </div>
+
+    <div id="genderTables">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
